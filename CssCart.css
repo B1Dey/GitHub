@@ -1,0 +1,38 @@
+html {
+    
+}
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    
+}
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 40px;
+}
+body {
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+}
+.CartTitle {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.cart {
+    background-color: aqua;
+    padding-left: 10px;
+}
+.header {
+    display: flex;
+    background-color: yellow;
+
+}
+.TitleShop {
+    margin-left: 40px;
+}
