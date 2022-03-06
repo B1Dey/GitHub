@@ -13,6 +13,7 @@ function addtocart(){
     image.setAttribute("src", textnode2)
     console.log(image)
     paragraph.appendChild(image).width="70"
+   
     paragraph.appendChild(textnode)
 
     
