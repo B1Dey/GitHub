@@ -11,6 +11,8 @@ function addtocart(){
     const textnode2 = this.parentElement.getElementsByTagName("img")[0].getAttribute("src");
     const image = document.createElement("img");
     image.setAttribute("src", textnode2)
+
+    
     console.log(image)
     paragraph.appendChild(image).width="70"
    
